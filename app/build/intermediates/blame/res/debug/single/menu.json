@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\build\\intermediates\\res\\merged\\debug\\menu\\forecastfragment.xml",
+        "source": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\src\\main\\res\\menu\\forecastfragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\build\\intermediates\\res\\merged\\debug\\menu\\detail.xml",
+        "source": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\src\\main\\res\\menu\\detail.xml"
+    }
+]

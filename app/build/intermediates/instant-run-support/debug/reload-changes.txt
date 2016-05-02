@@ -1,0 +1,13 @@
+CHANGED,C:\Users\bench\AndroidStudioProjects\Sunshine\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sunshine\DetailActivity$PlaceholderFragment$override.class
+CHANGED,C:\Users\bench\AndroidStudioProjects\Sunshine\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\bench\AndroidStudioProjects\Sunshine\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\v7\appcompat\R$id$override.class
+CHANGED,C:\Users\bench\AndroidStudioProjects\Sunshine\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sunshine\R$style$override.class
+CHANGED,C:\Users\bench\AndroidStudioProjects\Sunshine\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sunshine\DetailActivity$override.class
+CHANGED,C:\Users\bench\AndroidStudioProjects\Sunshine\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sunshine\R$string$override.class
+CHANGED,C:\Users\bench\AndroidStudioProjects\Sunshine\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sunshine\R$styleable$override.class
+CHANGED,C:\Users\bench\AndroidStudioProjects\Sunshine\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sunshine\R$integer$override.class
+CHANGED,C:\Users\bench\AndroidStudioProjects\Sunshine\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sunshine\R$layout$override.class
+CHANGED,C:\Users\bench\AndroidStudioProjects\Sunshine\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sunshine\ForecastFragment$override.class
+CHANGED,C:\Users\bench\AndroidStudioProjects\Sunshine\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sunshine\MainActivity$override.class
+CHANGED,C:\Users\bench\AndroidStudioProjects\Sunshine\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sunshine\R$menu$override.class
+CHANGED,C:\Users\bench\AndroidStudioProjects\Sunshine\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\sunshine\R$id$override.class
