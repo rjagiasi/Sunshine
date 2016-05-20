@@ -1,6 +1,7 @@
 package com.example.sunshine;
 
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -37,6 +38,8 @@ import android.view.MenuItem;
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.action_settings) {
+            Intent startsettingsactivity = new Intent(this, SettingsActivity.class);
+            startActivity(startsettingsactivity);
             return true;
         }
         return super.onOptionsItemSelected(item);

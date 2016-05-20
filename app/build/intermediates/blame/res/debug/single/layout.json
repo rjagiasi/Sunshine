@@ -68,12 +68,12 @@
         "source": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
         "merged": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_detail.xml",
@@ -156,12 +156,12 @@
         "source": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
-        "source": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\src\\main\\res\\layout\\fragment_main.xml"
-    },
-    {
         "merged": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
+        "source": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\src\\main\\res\\layout\\fragment_main.xml"
     },
     {
         "merged": "C:\\Users\\bench\\AndroidStudioProjects\\Sunshine\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
