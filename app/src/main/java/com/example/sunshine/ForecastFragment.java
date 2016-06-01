@@ -14,9 +14,11 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.text.format.Time;
@@ -57,13 +59,24 @@ public class ForecastFragment extends Fragment {
 
 		int id = item.getItemId();
         if (id == R.id.action_refresh) {
-        	FetchWeatherTask weathertask = new FetchWeatherTask();
-        	weathertask.execute("400601");
+        	updateweather();;
             return true;
         }
         return super.onOptionsItemSelected(item);
 	}
 
+	@Override
+	public void onStart() {
+		super.onStart();
+		updateweather();
+	}
+
+	public void updateweather(){
+		FetchWeatherTask weathertask = new FetchWeatherTask();
+		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getActivity());
+		String location = prefs.getString(getString(R.string.pref_location_key), getString(R.string.pref_location_default));
+		weathertask.execute(location);
+	}
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -74,11 +87,6 @@ public class ForecastFragment extends Fragment {
 		
 
 		ArrayList<String> data = new ArrayList<>();
-		data.add("Today - Sunny - 35/30");
-		data.add("Tomorrow - Foggy - 33/28");
-		data.add("Wed - Cloudy - 32/26");
-		data.add("Thurs - Rainy - 30/23");
-		data.add("Fri - Storm - 50/0");
 
 		arr_adap = new ArrayAdapter<>(
 				getActivity(),
@@ -93,7 +101,6 @@ public class ForecastFragment extends Fragment {
 			@Override
 			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
 					long arg3) {
-				// TODO Auto-generated method stub
 				
 				String text = arr_adap.getItem(arg2);
 //				Toast toast = Toast.makeText(getContext(), text, Toast.LENGTH_SHORT);
@@ -126,7 +133,8 @@ public class ForecastFragment extends Fragment {
 			String forecastJsonStr = null;
 			
 			String mode = "json";
-			String units = "metric";
+			SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getActivity());
+			String units = prefs.getString(getString(R.string.pref_units_key), getString(R.string.pref_location_default));
 			int days = 7;
 			final String MyOpenWeatherApiKey = "01c9dc5fdb0aaea8490bc0534c9f4a6e";
 			

@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <array name="pref_units_options">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </array>
+    <array name="pref_units_values">
+        <item>metric</item>
+        <item>imperial</item>
+    </array>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
@@ -209,10 +217,18 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_map">Preferred Location</string>
     <string name="action_refresh" translateable="false">Refresh</string>
     <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
     <string name="app_name">Sunshine</string>
     <string name="hello_world">Hello world!</string>
+    <string name="pref_location_default" translatable="false">400601</string>
+    <string name="pref_location_key" translatable="false">location</string>
+    <string name="pref_location_label">Location</string>
+    <string name="pref_units_key" translatable="false">units</string>
+    <string name="pref_units_label">Temperature Units</string>
+    <string name="pref_units_metric" translatable="false">Metric</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_detail">DetailActivity</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
