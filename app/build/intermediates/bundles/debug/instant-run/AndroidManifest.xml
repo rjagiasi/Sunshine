@@ -35,6 +35,10 @@
             android:label=".SettingsActivity"
             android:parentActivityName="com.example.sunshine.MainActivity" >
         </activity>
+
+        <provider
+            android:name="com.example.sunshine.data.WeatherProvider"
+            android:authorities="com.example.sunshine" />
     </application>
 
 </manifest>

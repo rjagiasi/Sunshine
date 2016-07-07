@@ -625,11 +625,12 @@ int string hello_world 0x7f060019
 int string pref_location_default 0x7f06001a
 int string pref_location_key 0x7f06001b
 int string pref_location_label 0x7f06001c
-int string pref_units_key 0x7f06001d
-int string pref_units_label 0x7f06001e
-int string pref_units_metric 0x7f06001f
+int string pref_units_imperial 0x7f06001d
+int string pref_units_key 0x7f06001e
+int string pref_units_label 0x7f06001f
+int string pref_units_metric 0x7f060020
 int string status_bar_notification_info_overflow 0x7f060013
-int string title_activity_detail 0x7f060020
+int string title_activity_detail 0x7f060021
 int style AlertDialog_AppCompat 0x7f09007e
 int style AlertDialog_AppCompat_Light 0x7f09007f
 int style Animation_AppCompat_Dialog 0x7f090080
