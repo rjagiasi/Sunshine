@@ -210,7 +210,7 @@ public class WeatherProvider extends ContentProvider {
                         null,
                         null,
                         sortOrder
-                );;
+                );
                 break;
             }
 

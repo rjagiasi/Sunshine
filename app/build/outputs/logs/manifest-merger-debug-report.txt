@@ -42,7 +42,7 @@ MERGED from [com.android.support:support-v4:23.1.1] C:\Users\bench\AndroidStudio
 	android:allowBackup
 		ADDED from C:\Users\bench\AndroidStudioProjects\Sunshine\app\src\main\AndroidManifest.xml:14:9-35
 	android:icon
-		ADDED from C:\Users\bench\AndroidStudioProjects\Sunshine\app\src\main\AndroidManifest.xml:15:9-45
+		ADDED from C:\Users\bench\AndroidStudioProjects\Sunshine\app\src\main\AndroidManifest.xml:15:9-43
 	android:theme
 		ADDED from C:\Users\bench\AndroidStudioProjects\Sunshine\app\src\main\AndroidManifest.xml:17:9-40
 activity#com.example.sunshine.MainActivity
